@@ -1,0 +1,23 @@
+*{
+    background-origin: padding-box;
+}
+.text{
+    font-family: sans-serif;
+    background: black;
+    text-align: -webkit-center;
+    height: 200px;
+    padding-top: 100px;
+    color: yellow;
+    font-size: 20px;
+    font-weight: 300;
+}
+.top {display: flex;background: gray;color: white;font-family: sans-serif;}
+
+.bottomcolor {
+    background: #282842;
+    height: 200px;
+}
+
+.boxes {
+    height: 300px;
+}
