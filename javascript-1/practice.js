@@ -3,43 +3,59 @@
 // Create a variable called 'myName' that's value is your name
 
 // Code here
-
+const myName = "Jared"
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' that's value is your favorite number
 
 //Code here
-
+const faveNum = 11
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called 'lovesCode' and set it to true
 
 //Code here
-
+const lovesCode = true;
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, num1 and num2, and returns the sum of those two parameters.
 
 //Code here
-
+const sum = (num1, num2) => {
+	return num1 + num2
+}
 //////////////////PROBLEM 5////////////////////
 
 // Create a function called 'lovesCodeChecker' that takes in a single parameter called x. Check to see if x is equal to true. If it is, return true as a boolean. If x does not equal true, return false as a boolean
 
 //Code here
-
+const lovesCodeChecker = (x) => {
+	if(x === true) {
+		return true
+	} else {
+		return false
+	}
+}
 //////////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, num. Check to see if the number is even or odd. If it is odd, return 'the number is odd' or return 'the number is even' if it is even.
 
 //Code here
-
+const oddChecker = (num) => {
+	if( (num % 2) === 0) {
+		return	'the number is even'
+	}else{
+		return 'the number is odd'
+	}
+}
 //////////////////PROBLEM 7////////////////////
 
 // Create a function called 'iLove' that takes in two parameters, name which will be a string  and love which will be a string of something you love. Have the function take the two parameters and retrun a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Bryan loves skateboarding"
 
 //Code Here
-
+const iLove = (name, love) => {
+	return (name + ' loves ' + love)
+}
 //////////////////PROBLEM 8////////////////////
 
 // Create a copy of the faveColors array called 'colorCopy' using slice
