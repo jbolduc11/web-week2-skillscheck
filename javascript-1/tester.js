@@ -1,9 +1,16 @@
-const arr = [100, 210, 30, 45, 150];
-let answers = [];
 
-const bigOrSmall = (arr) => {
-	for(var i = 0; i < arr.length; i++){
-	    return (arr[i] <= 100 ? answers.push('small') : answers.push('big'))
-	} console.log(answers())
-};
 
+let groceries = ['bananas', 'bread', 'milk', 'gravy'];
+
+const checkGroceryCount = () => {
+    let length = groceries.length;
+    if(length > 5) {
+        return 'That looks like a big trip'
+    } else if (length === 1) {
+        return '1 item'
+    } else {
+        return (length + ' items');
+    }
+}
+
+console.log(checkGroceryCount());
