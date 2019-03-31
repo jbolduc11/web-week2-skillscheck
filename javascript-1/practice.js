@@ -95,13 +95,24 @@ var me = {
 // Create a function called 'bigOrSmall' that takes in one parameter, arr. Create a new array inside of bigOrSmall called 'answers'. Loop over the passed in arr param. If the number is GREATER than 100, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function
 
 // Code here
-
+const bigOrSmall = (arr) => {
+	let answers = [];
+	for(let i = 0; i<arr.length; i++){
+	return (arr[i] <= 100 ? answers.push('small') : answers.push('big'))
+	} return answers();
+};
 //////////////////PROBLEM 13////////////////////
 
 // Create a function called 'arrayReverser' that takes in one parameter, arr. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array in reverse and add each item to the new reversed array. Finally, return the new reversed array
 
 //Code Here
-
+const arrayReverser = (arr) => {
+	let reversed = []
+	for(let i = arr.length-1; i >= 0; i--) {
+		reversed.push(arr[i])
+	}
+	return reversed;
+}
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. We will be using .map, .filter, .reduce and .forEach to manipulate the array in some form
@@ -113,7 +124,9 @@ const myNumbers = [3, 55, 788, 2, 1]
 // First, let's use .map to create a new array that doubles each number. Call the new array 'doubled'
 
 // Code Here
-
+const newFunction = (myNumbers) => {
+	
+}
 //////////////////PROBLEM 15////////////////////
 
 // Now lets use .filter to only get the nubmer(s) greater than 100. Call the new array 'filtered'

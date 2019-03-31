@@ -1,9 +1,9 @@
-const oddChecker = (num) => {
-	if( (num % 2) === 0) {
-		return	'the number is even'
-	}else{
-		return 'the number is odd'
-	}
-}
+const arr = [100, 210, 30, 45, 150];
+let answers = [];
 
-console.log(oddChecker(13))
+const bigOrSmall = (arr) => {
+	for(var i = 0; i < arr.length; i++){
+	    return (arr[i] <= 100 ? answers.push('small') : answers.push('big'))
+	} console.log(answers())
+};
+
